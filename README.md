@@ -1,24 +1,36 @@
-# README
+# Backend - Twygo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este é o backend da aplicação **Twygo**, desenvolvido em **Ruby**. Ele é responsável por gerenciar os dados da aplicação, como cursos e interações com o banco de dados.
 
-Things you may want to cover:
+---
 
-* Ruby version
+## Tecnologias Utilizadas
 
-* System dependencies
+- **Ruby** (linguagem principal)
+- **ActiveRecord** (ORM para manipulação de dados)
+- **Rack::CORS** (para lidar com requisições entre front e backend)
+- **RSpec** (para testes unitários)
 
-* Configuration
+---
 
-* Database creation
+## Configuração do Ambiente
 
-* Database initialization
+### Pré-requisitos
 
-* How to run the test suite
+Certifique-se de que as seguintes ferramentas estejam instaladas em sua máquina:
+- **Ruby** (versão 3.0 ou superior)
+- **Bundler** (para gerenciar dependências Ruby)
 
-* Services (job queues, cache servers, search engines, etc.)
+---
 
-* Deployment instructions
+### Passo a Passo para Configuração
 
-* ...
+1. **Clone o Repositório**
+   ```bash
+   git clone https://github.com/LuizDanielOliveira/Back-end
+   
+   
+   Instale as Dependências Utilize o Bundler para instalar todas as gems necessárias:
+  bundle install
+  
+  rails server .
