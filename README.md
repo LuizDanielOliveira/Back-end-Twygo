@@ -32,5 +32,9 @@ Certifique-se de que as seguintes ferramentas estejam instaladas em sua máquina
    
    Instale as Dependências Utilize o Bundler para instalar todas as gems necessárias:
   bundle install
-  
-  rails server .
+
+ ## ruby bin/rails db:migrate    MUITO IMPORTANTE COLOCAR NO TERMINAL O COMANDO : bin/rails db:migrate
+
+rails server
+ou
+rails S
